@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Glitch</title>
+	<link rel="stylesheet" href="glitch.css" type="text/css" media="screen" />
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="filereader.js" type="text/javascript"></script>
+	<script src="jpeg_encoder_basic.js" type="text/javascript"></script>
+    <script src="crunch.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="block">		
+	<form name="controls">
+		<div class="buttonRow">
+			<div id="dropzone">
+				Drop File Here
+			</div>
+			<button type="button" name="reglitch" id="reglitch">Re-Glitch</button>
+			<button type="button" name="random" id="random">Random</button>
+			<button type="button" name="reEncode" id="reEncode">Re-Encode</button>		
+			<button type="button" name="store" id="store">Store</button>		
+		</div>
+		<div class="buttonRow">
+			<label for="offset">Offset</label><input name="offset" type="range" min="1" max="7000" value="4" id="offset"/>
+		</div>
+	  	<div class="buttonRow">
+			<label for="char">Data</label><input  maxlength="80" type="test" name="charLet" value="g" id="char"/>
+		</div>
+		</form>
+	</div>
+	<div class="block glitchPreview">
+		<div id='Image' class='data_background' style='text-align: center;'></div>		
+	</div>
+	<div class="block saved" id="saveBox">
+	</div>
+</body>
+</html>

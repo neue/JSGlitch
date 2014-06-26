@@ -1,0 +1,121 @@
+body {
+	font: 11px Helvetica, Arial, Geneva, sans-serif;
+}
+
+.block {
+	float: left;
+	clear: left;
+	background: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.7, rgb(244,244,244)),
+	    color-stop(1, rgb(255,255,255)));
+	border: 1px solid #b5b5b5;
+	margin: 5px;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.glitchPreview {
+	min-width: 400px;
+	min-height: 400px;
+}
+
+.buttonRow {
+	float: left;
+	clear: left;
+	margin-top: 5px;
+}
+
+#dropzone {
+	float: left;
+	clear: left;
+	padding: 4px 8px;
+	margin-right: 4px;
+	border: 2px solid #999;
+}
+
+#dropzone.drag {
+	border-color: #0000ff;
+}
+
+form {
+	float: left;
+}
+
+label {
+	clear: left;
+	float: left;
+	margin-top: 6px;
+	margin-right: 10px;
+	width: 30px;
+	text-align: right;
+	font-weight: bold;
+	color: #242424;
+}
+
+input {
+	 float: left;
+}
+
+button {
+	background-color: red;
+	background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.97, rgb(242,242,242)),
+    color-stop(0.71, rgb(209,209,209)),
+    color-stop(0.97, rgb(251,251,251))
+	);
+	border: 1px solid #797979;
+	color: rgba(0,0,0,0.78);
+	text-shadow: 0px 1px 0px #fff;
+	font-weight: bold;
+}
+
+button:hover {
+		background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.97, rgb(232,232,232)),
+    color-stop(0.71, rgb(199,199,199)),
+    color-stop(0.97, rgb(241,241,241))
+	);
+	border: 1px solid #505050;
+}
+
+button:active {
+	background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.97, rgb(222,222,222)),
+    color-stop(0.71, rgb(179,179,179)),
+    color-stop(0.97, rgb(221,221,221))
+	);
+	border: 1px solid #353535;
+	text-shadow: 0px -1px 0px #fff;
+
+}
+
+#offset {
+	width: 700px;
+}
+
+.saved {
+	white-space: nowrap;
+	max-width: 90%;
+	overflow: scroll;
+ 	overflow-y: hidden;
+	/*max-height: 400px;*/
+}
+
+.saved img {
+	display: inline;
+	white-space: nowrap;
+	margin-right: 5px;
+}
