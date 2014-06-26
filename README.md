@@ -1,6 +1,8 @@
 JSGlitch
 ========
 
+![Preview](https://github.com/neue/JSGlitch/raw/master/jsglitch.gif "Preview")
+
 Made this years ago so the code is pretty shambolic, it was just hacked together to use as a filter on a project I was working on back then.
 
 - Offset : Location in the base64 stream where you want to induce an error
